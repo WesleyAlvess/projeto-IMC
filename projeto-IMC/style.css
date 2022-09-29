@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+:root{
+    --primary-color: #d3d3d3;
+    --primary-color-darker: #a09d9d;
+}
+
+*{
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary-color);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8em;
+    line-height: 1em;
+}
+
+.container{
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+form input, form label, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 6px;
+    
+}
+
+form input {
+font-size: 12px;
+height: 25px;
+padding: 0 6px;
+
+}
+
+form input:focus {
+    outline: 1px solid var(--primary-color);
+}
+
+form button{
+    border: none;
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    font-size: 18px;
+    height: 50px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+button:hover{
+    background-color: var(--primary-color-darker);
+    
+}
+
+.paragrafo-resultado, .bad{
+    background-color: rgb(37, 228, 209);
+    border-radius: 8px;
+    padding: 10px;
+}
+.bad{
+    background-color: red ;
+}
